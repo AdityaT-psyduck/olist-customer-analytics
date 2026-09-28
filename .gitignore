@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter / VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: the Olist CSVs are large and licensed by Olist - download them from Kaggle instead
+data/raw/*.csv
+data/raw/*.zip
+
+# Generated outputs (recreate by running the notebooks)
+outputs/*.csv
